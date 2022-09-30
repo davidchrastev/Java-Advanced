@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1433e309-85f5-429c-be43-500b9b443e7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesLab/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DefiningClassesLab/Main.java" afterDir="false" />
+    <list default="true" id="1433e309-85f5-429c-be43-500b9b443e7c" name="Changes" comment="DefiningClassesLab">
+      <change afterPath="$PROJECT_DIR$/src/DefiningClassesLab/CarDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefiningClassesLab/Car.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DefiningClassesLab/CarInfo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefiningClassesLab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefiningClassesLab/DemoInOOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StacksandQueuesLab/BrowserHistory01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacksandQueuesLab/BrowserHistory01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DefiningClassesLab/DemoInOOP.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,7 +43,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DemoInOOP">
     <configuration name="BrowserHistory01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StacksandQueuesLab.BrowserHistory01" />
       <module name="Java-Advanced" />
@@ -53,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesLab.Main" />
+    <configuration name="DemoInOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefiningClassesLab.DemoInOOP" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DemoInOOP" />
         <item itemvalue="Application.BrowserHistory01" />
       </list>
     </recent_temporary>
@@ -82,6 +86,21 @@
       <option name="presentableId" value="Default" />
       <updated>1664532068630</updated>
     </task>
+    <task id="LOCAL-00001" summary="DefiningClassesLab">
+      <created>1664560315164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664560315164</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DefiningClassesLab">
+      <created>1664560401964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664560401964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DefiningClassesLab" />
+    <option name="LAST_COMMIT_MESSAGE" value="DefiningClassesLab" />
   </component>
 </project>
