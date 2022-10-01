@@ -14,7 +14,6 @@ public class BrowserHistory01 {
 
         while (!command.equals("Home")) {
 
-
             if (command.equals("back")) {
                 if (urls.isEmpty()) {
                     System.out.println("no previous URLs");
