@@ -1,7 +1,5 @@
 package MultidimensionalArraysExercises;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class ParkingSystem09 {
@@ -19,7 +17,6 @@ public class ParkingSystem09 {
                 matrix[row][col] = 0;
             }
         }
-        Map<Integer, Integer> rowFull = new HashMap<>();
 
         String command = scanner.nextLine();
 
@@ -29,7 +26,6 @@ public class ParkingSystem09 {
             int entrancePoint = Integer.parseInt(commandParts[0]);
             int wantedParkingSpotRow = Integer.parseInt(commandParts[1]);
             int wantedParkingSpotCol = Integer.parseInt(commandParts[2]);
-
 
             int moves = 0;
             boolean found = false;
@@ -61,31 +57,17 @@ public class ParkingSystem09 {
             if (found) {
                 System.out.println(moves);
             }
+
             command = scanner.nextLine();
 
-        }
-    }
+            if (command.equals("stop")) {
+                break;
+            }
 
-
-    public static boolean check(int[][] matrix, int a, int b) {
-        if (matrix[a][b] == 0) {
-            return true;
-        } else {
-            return false;
         }
     }
     public static int checkSteps(int a, int b, int y) {
         return Math.abs(a - b) + y + 1;
 
     }
-    public static boolean isRowFull(Map<Integer,Integer> rowFull, int currentRow, int rows){
-
-        if (rowFull.get(currentRow) == rows - 2) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-
 }

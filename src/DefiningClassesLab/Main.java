@@ -17,42 +17,48 @@ public class Main {
 
             String command = data[0];
 
-            if (command.equals("Create")) {
-                BankAccount bankAccount = new BankAccount();
-                bankAccounts.put(bankAccount.getId(), bankAccount);
-                System.out.println("Account ID" + bankAccount.getId() + " created");
-
-            } else if (command.equals("Deposit")) {
-
-                int id = Integer.parseInt(data[1]);
-
-                if (existsOrNot(bankAccounts,id)) {
-                    double amount = Double.parseDouble(data[2]);
-                    deposit(bankAccounts, amount, id);
-                    System.out.printf("Deposited %.0f to ID%d%n",amount,id);
-                } else {
-                    System.out.println("Account does not exist");
-                }
-
-            } else if (command.equals("SetInterest")) {
-                double interestRate = Double.parseDouble(data[1]);
-                BankAccount.setInterestRate(interestRate);
-
-            } else if (command.equals("GetInterest")) {
-                int id = Integer.parseInt(data[1]);
-
-                if (existsOrNot(bankAccounts,id)) {
-                    int years = Integer.parseInt(data[2]);
-                    System.out.printf("%.2f%n",getInterest(bankAccounts, id, years));
-                } else {
-                    System.out.println("Account does not exist");
-                }
-            }
+            printResults(bankAccounts, data, command);
 
             input = scanner.nextLine();
         }
 
     }
+
+    private static void printResults(Map<Integer, BankAccount> bankAccounts, String[] data, String command) {
+
+        if (command.equals("Create")) {
+            BankAccount bankAccount = new BankAccount();
+            bankAccounts.put(bankAccount.getId(), bankAccount);
+            System.out.println("Account ID" + bankAccount.getId() + " created");
+
+        } else if (command.equals("Deposit")) {
+
+            int id = Integer.parseInt(data[1]);
+
+            if (existsOrNot(bankAccounts,id)) {
+                double amount = Double.parseDouble(data[2]);
+                deposit(bankAccounts, amount, id);
+                System.out.printf("Deposited %.0f to ID%d%n",amount,id);
+            } else {
+                System.out.println("Account does not exist");
+            }
+
+        } else if (command.equals("SetInterest")) {
+            double interestRate = Double.parseDouble(data[1]);
+            BankAccount.setInterestRate(interestRate);
+
+        } else if (command.equals("GetInterest")) {
+            int id = Integer.parseInt(data[1]);
+
+            if (existsOrNot(bankAccounts,id)) {
+                int years = Integer.parseInt(data[2]);
+                System.out.printf("%.2f%n",getInterest(bankAccounts, id, years));
+            } else {
+                System.out.println("Account does not exist");
+            }
+        }
+    }
+
     public static double getInterest(Map<Integer, BankAccount> bankAccounts, int id, int years) {
         return bankAccounts.get(id).getInterest(years);
     }

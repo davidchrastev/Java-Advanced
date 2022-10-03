@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1433e309-85f5-429c-be43-500b9b443e7c" name="Changes" comment="DefiningClassesLab">
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/Crossfire07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/DiagonalDifference03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/FilltheMatrix01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/MatrixShuffling05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/MatrixofPalindromes02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/MaximalSum04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/ParkingSystem09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/ReverseMatrixDiagonals11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/StringMatrixRotation06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/TheHeiganDance08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/RadioactiveMutantVampireBunnies10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetsAndMapsAdvancedExercises/UniqueUsernames01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/BalancedParentheses05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/BasicQueueOperations04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/BasicStackOperations02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/MaximumElement03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/PoisonousPlants09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/RecursiveFibonacci06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/ReverseNumbers01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksandQueuesExercises/SimpleTextEditor07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefiningClassesLab/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefiningClassesLab/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DefiningClassesLab/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefiningClassesLab/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/ParkingSystem09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultidimensionalArraysExercises/ParkingSystem09.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.RadioactiveMutantVampireBunnies10">
     <configuration name="CarInfo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClassesLab.CarInfo01" />
       <module name="Java-Advanced" />
@@ -66,19 +66,6 @@
     </configuration>
     <configuration name="DefiningClassesLab.Constructors02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DefiningClassesLab.Constructors02" />
-      <module name="Java-Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DefiningClassesLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefiningClassesLab.DemoInOOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesLab.DemoInOOP" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioactiveMutantVampireBunnies10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArraysExercises.RadioactiveMutantVampireBunnies10" />
+      <module name="Java-Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultidimensionalArraysExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadioactiveMutantVampireBunnies10" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ParkingSystem09" />
         <item itemvalue="Application.DefiningClassesLab.Constructors02" />
-        <item itemvalue="Application.DefiningClassesLab.CarInfo01" />
-        <item itemvalue="Application.DefiningClassesLab.DemoInOOP" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664633578266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DefiningClassesLab">
+      <created>1664644547813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664644547813</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,16 +186,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DefiningClassesLab" />
     <option name="LAST_COMMIT_MESSAGE" value="DefiningClassesLab" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DefiningClassesLab/Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
