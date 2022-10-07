@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1433e309-85f5-429c-be43-500b9b443e7c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/CarSalesman/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarSalesman/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarSalesman/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exams/KAT01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/StickyFingers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam/Workout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam19February2022/FoodFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam19February2022/PawnWars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/Armory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/Blacksmith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabGenerics/Jar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabGenerics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkShop/SmartArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkShop/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +52,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CarSalesman.Main">
-    <configuration name="CarSalesman.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarSalesman.Main" />
+  <component name="RunManager" selected="Application.PawnWars">
+    <configuration name="Armory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam13April2022.Armory" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CarSalesman.*" />
+          <option name="PATTERN" value="JavaAdvancedRetakeExam13April2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,25 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercisesDefiningClasses.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExercisesDefiningClasses.Main" />
+    <configuration name="FoodFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedExam19February2022.FoodFinder" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExercisesDefiningClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KAT01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exams.KAT01" />
-      <module name="Java-Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exams.*" />
+          <option name="PATTERN" value="JavaAdvancedExam19February2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefiningClassesLab.Main" />
+      <option name="MAIN_CLASS_NAME" value="Exam.Main" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DefiningClassesLab.*" />
+          <option name="PATTERN" value="Exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioactiveMutantVampireBunnies10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidimensionalArraysExercises.RadioactiveMutantVampireBunnies10" />
+    <configuration name="PawnWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedExam19February2022.PawnWars" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultidimensionalArraysExercises.*" />
+          <option name="PATTERN" value="JavaAdvancedExam19February2022.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StickyFingers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam.StickyFingers" />
+      <module name="Java-Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarSalesman.Main" />
-        <item itemvalue="Application.KAT01" />
-        <item itemvalue="Application.ExercisesDefiningClasses.Main" />
-        <item itemvalue="Application.RadioactiveMutantVampireBunnies10" />
+        <item itemvalue="Application.PawnWars" />
+        <item itemvalue="Application.FoodFinder" />
+        <item itemvalue="Application.Armory" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StickyFingers" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +210,16 @@
           <url>file://$PROJECT_DIR$/src/CarSalesman/Main.java</url>
           <line>46</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/Blacksmith.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedExam19February2022/PawnWars.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
