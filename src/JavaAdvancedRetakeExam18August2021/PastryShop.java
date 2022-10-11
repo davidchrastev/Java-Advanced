@@ -73,7 +73,7 @@ public class PastryShop {
             while (!liquids.isEmpty()) {
                 outPutLiquids.add(String.valueOf(liquids.poll()));
             }
-            System.out.println("Liquids left: " + String.join(" , ", outPutLiquids));
+            System.out.println("Liquids left: " + String.join(", ", outPutLiquids));
         }
     }
 

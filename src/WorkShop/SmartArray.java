@@ -6,7 +6,7 @@ package WorkShop;
 
 import java.util.function.Consumer;
 
-public class SmartArray {
+public class SmartArray<T> {
     private int[] data;
 
     private  int size;

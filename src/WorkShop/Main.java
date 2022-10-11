@@ -11,7 +11,5 @@ public class Main {
 
         SmartArray smartArray = new SmartArray();
 
-
-
     }
 }
