@@ -14,12 +14,10 @@ public class PawnWars {
 
         int whiteRow = whitePosition[0];
         int whiteCol = whitePosition[1];
-
         int blackRow = blackPosition[0];
         int blackCol = blackPosition[1];
 
         while (blackRow != 7 && whiteRow != 0) {
-
             if (checkCaptureWhite(whiteRow,whiteCol,blackRow,blackCol)) {
                 System.out.println("Game over! White capture on " + coordinates(blackRow,blackCol) + ".");
 
@@ -32,9 +30,7 @@ public class PawnWars {
                 break;
             }
             blackRow++;
-
         }
-
 
         if (whiteRow == 0) {
             System.out.println("Game over! White pawn is promoted to a queen at " + coordinates(whiteRow,whiteCol) + ".");
@@ -43,7 +39,6 @@ public class PawnWars {
             System.out.println("Game over! Black pawn is promoted to a queen at " + coordinates(blackRow,blackCol) + ".");
         }
     }
-
     private static boolean checkCaptureWhite(int whiteRow,int whiteCol, int blackRow, int blackCol) {
 
         if (whiteRow - 1 == blackRow && (whiteCol - 1 == blackCol || whiteCol + 1 == blackCol)) {
@@ -53,7 +48,6 @@ public class PawnWars {
         }
 
     }
-
     private static boolean checkCaptureBlack(int whiteRow,int whiteCol, int blackRow, int blackCol) {
 
         if (whiteRow == blackRow + 1 && (whiteCol == blackCol + 1 || whiteCol == blackCol - 1)) {
@@ -63,7 +57,6 @@ public class PawnWars {
         }
 
     }
-
 
     private static void fill(Scanner scanner, char[][] chessBoard, int[] whitePosition, int[] blackPosition) {
         for (int row = 0; row < chessBoard.length; row++) {
