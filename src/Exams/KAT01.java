@@ -8,80 +8,67 @@ public class KAT01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] countLicensePlates = Arrays.stream(scanner.nextLine().
-                        split(", ")).
-                mapToInt(Integer::parseInt).toArray();
+        ArrayDeque<Integer> licensePlates = new ArrayDeque<>();
+        ArrayDeque<Integer> cars = new ArrayDeque<>();
 
-        int[] numberOfCars = Arrays.stream(scanner.nextLine().
-                        split(", ")).
-                mapToInt(Integer::parseInt).toArray();
-
-
-
-        ArrayDeque<Integer> countLicense = new ArrayDeque<>();
-
-        for (int i = 0; i < countLicensePlates.length; i++) {
-            countLicense.offer(countLicensePlates[i]);
+        String[] input = (scanner.nextLine().split(", "));
+        String[] input2 = (scanner.nextLine().split(", "));
+        for (String value : input) {
+            licensePlates.offer(Integer.parseInt(value));
         }
-
-        ArrayDeque<Integer> countCars = new ArrayDeque<>();
-
-
-        for (int count = 0; count < numberOfCars.length; count++) {
-            countCars.push(numberOfCars[count]);
+        for (String s : input2) {
+            cars.push(Integer.parseInt(s));
         }
         int days = 0;
-        int registeredCars = 0;
+        int countRegisteredCars = 0;
+        while (!licensePlates.isEmpty() && !cars.isEmpty()) {
+            int currentLicencePlate = licensePlates.peek();
+            int currentCountCars = cars.peek();
 
-
-        while (true) {
-
-            if (countCars.isEmpty() || countLicense.isEmpty()) {
-                break;
+            int currentNumberOfPlate = 0;
+            for (int i = 0; i < 1; i++) {
+                currentNumberOfPlate = licensePlates.poll();
             }
 
-            int currentCars = countCars.pop();
-            int currentLicensePlates = countLicense.poll();
+            int currNumberOfCars = 0;
+            for (int i = 0; i < 1; i++) {
+                currNumberOfCars = cars.pop();
+            }
+            if (currentNumberOfPlate > (currNumberOfCars * 2)) {
+                licensePlates.addLast(currentNumberOfPlate - (currNumberOfCars * 2));
+               countRegisteredCars += currNumberOfCars;
+            } else if (currentNumberOfPlate < (currNumberOfCars * 2)) {
+                int leftCars = currNumberOfCars - (currentNumberOfPlate / 2);
+                cars.addLast(leftCars);
 
-            if (currentCars >= currentLicensePlates) {
-                int diffCars = currentCars - (currentLicensePlates / 2);
-                countCars.offer(diffCars);
-                registeredCars += currentCars - diffCars;
-
-
-            } else if (currentLicensePlates > currentCars) {
-                int diffPlates = currentLicensePlates - (currentCars * 2);
-                countLicense.offer(diffPlates);
-                registeredCars += currentCars;
-
+                countRegisteredCars += (currentNumberOfPlate / 2);
+            } else {
+                countRegisteredCars += currNumberOfCars;
             }
 
             days++;
+
         }
 
-        System.out.println(registeredCars + " cars were registered for " + days + " days!");
+        System.out.println(countRegisteredCars + " cars were registered for "+ days + " days!");
 
-        int licensePlates = 0;
-
-        while (!countLicense.isEmpty()) {
-            licensePlates += countLicense.poll();
-        }
-        int carsAll = 0;
-
-        while (!countCars.isEmpty()) {
-            carsAll += countCars.pop();
-        }
-
-        if (licensePlates > 0) {
-            System.out.println(licensePlates + " license plates remain!");
-        }
-        if (carsAll - registeredCars > 0) {
-            System.out.println(carsAll - registeredCars + " cars remain without license plates!");
-        }
-        if (carsAll == 0 && licensePlates == 0) {
+        if (cars.isEmpty() && licensePlates.isEmpty()) {
             System.out.println("Good job! There is no queue in front of the KAT!");
         }
-
+        int count = 0;
+        if (!licensePlates.isEmpty()) {
+            while (!licensePlates.isEmpty()) {
+                count += licensePlates.poll();
+            }
+            System.out.println(count +" license plates remain!");
+        }
+        int countCars = 0;
+        if (!cars.isEmpty()) {
+            while (!cars.isEmpty()) {
+                countCars += cars.pop();
+            }
+            System.out.println(countCars + " cars remain without license plates!");
+        }
 
 
     }

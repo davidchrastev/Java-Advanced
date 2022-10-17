@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1433e309-85f5-429c-be43-500b9b443e7c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationLab/Clinic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationLab/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationLab/OSPlanning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationLab/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationLab/ReVolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IteratorsandComparatorsLab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam2019/PresentDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparationExercise/Bee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparationExercise/Lootbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exams/TreasureHunt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/GroomingSalon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/OSPlaning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/Python.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Bouquets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/CookingJourney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam18August2021/PastryShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam18August2021/PastryShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkShop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkShop/SmartArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkShop/SmartArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exams/KAT01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exams/KAT01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Winner/Desktop/vetClinic",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Winner/Desktop/university&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\Java-Advanced\Java-Advanced\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReVolt">
-    <configuration name="ExamPreparationLab.OSPlanning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExamPreparationLab.OSPlanning" />
+  <component name="RunManager" selected="Application.JavaAdvancedExam26June2021.Main">
+    <configuration name="Bouquets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam14April2021.Bouquets" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExamPreparationLab.*" />
+          <option name="PATTERN" value="JavaAdvancedRetakeExam14April2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormulaOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam18August2021.FormulaOne" />
+    <configuration name="CookingJourney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam14April2021.CookingJourney" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAdvancedRetakeExam18August2021.*" />
+          <option name="PATTERN" value="JavaAdvancedRetakeExam14April2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsExercises.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsExercises.Main" />
+    <configuration name="JavaAdvancedExam26June2021.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedExam26June2021.Main" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GenericsExercises.*" />
+          <option name="PATTERN" value="JavaAdvancedExam26June2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PastryShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam18August2021.PastryShop" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam14April2021.Main" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAdvancedRetakeExam18August2021.*" />
+          <option name="PATTERN" value="JavaAdvancedRetakeExam14April2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReVolt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExamPreparationLab.ReVolt" />
+    <configuration name="Python" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAdvancedExam26June2021.Python" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExamPreparationLab.*" />
+          <option name="PATTERN" value="JavaAdvancedExam26June2021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReVolt" />
-        <item itemvalue="Application.ExamPreparationLab.OSPlanning" />
-        <item itemvalue="Application.FormulaOne" />
-        <item itemvalue="Application.PastryShop" />
-        <item itemvalue="Application.GenericsExercises.Main" />
+        <item itemvalue="Application.JavaAdvancedExam26June2021.Main" />
+        <item itemvalue="Application.Python" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CookingJourney" />
+        <item itemvalue="Application.Bouquets" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665494667102</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1665519923929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665519923929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,11 +236,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exams/KAT01.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CarSalesman/Main.java</url>
           <line>46</line>
@@ -263,10 +271,46 @@
           <line>13</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExamPreparationExercise/Bee.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exams/TreasureHunt.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exams/KAT01.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exam2019/PresentDelivery.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Bouquets.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/CookingJourney.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/CookingJourney.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
+        <watch expression="engines" />
         <watch expression="engines" />
       </configuration>
     </watches-manager>
