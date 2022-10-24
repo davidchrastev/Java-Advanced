@@ -1,4 +1,5 @@
-# Java-Advanced
+# 🌱 Java-Advanced 🌱
+
 Here i am learning 
 Queues and Stack,
 Matrix,
@@ -8,4 +9,4 @@ Functional programming,
 Defining classes,
 Generics,
 Iterators - Iterable,
-Comparatots - Comparable
+Comparators - Comparable
