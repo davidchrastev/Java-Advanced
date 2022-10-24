@@ -2,22 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1433e309-85f5-429c-be43-500b9b443e7c" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Exam2019/PresentDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationExercise/Bee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparationExercise/Lootbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exams/TreasureHunt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/GroomingSalon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/OSPlaning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam26June2021/Python.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Bouquets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/CookingJourney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam14April2021/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exam2019/SantaPresentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/CompanyRoster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/MainPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/RAWDATA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam20February2021/Bomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam20February2021/MagicBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam28June2020/Bombs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam28June2020/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam28June2020/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam28June2020/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedExam28June2020/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/testColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam16December2020/Bakery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam16December2020/Cooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam16December2020/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam16December2020/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam16December2020/Selling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Bottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Jungle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Mid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Project/Top.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularExam/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularExam/EnergyDrinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularExam/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularExam/RallyRacing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularExam/Shelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game3xNplus1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trainer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trainer/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trainer/Trainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exams/KAT01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exams/KAT01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exam2019/PresentDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exam2019/PresentDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamPreparationExercise/Bee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamPreparationExercise/Bee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercisesDefiningClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/Blacksmith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/Blacksmith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hotel/Hotel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,48 +79,25 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Winner/Desktop/university&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Winner/Desktop/Openning&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ExercisesDefiningClasses" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\Java-Advanced\Java-Advanced\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaAdvancedExam26June2021.Main">
-    <configuration name="Bouquets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam14April2021.Bouquets" />
+  <component name="RunManager" selected="Application.Project.Main">
+    <configuration name="EnergyDrinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularExam.EnergyDrinks" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAdvancedRetakeExam14April2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CookingJourney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam14April2021.CookingJourney" />
-      <module name="Java-Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAdvancedRetakeExam14April2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaAdvancedExam26June2021.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedExam26June2021.Main" />
-      <module name="Java-Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaAdvancedExam26June2021.*" />
+          <option name="PATTERN" value="RegularExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedRetakeExam14April2021.Main" />
+      <option name="MAIN_CLASS_NAME" value="RegularExam.Main" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAdvancedRetakeExam14April2021.*" />
+          <option name="PATTERN" value="RegularExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +118,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Python" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaAdvancedExam26June2021.Python" />
+    <configuration name="Project.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.Main" />
       <module name="Java-Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaAdvancedExam26June2021.*" />
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RallyRacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularExam.RallyRacing" />
+      <module name="Java-Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RegularExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SantaPresentFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam2019.SantaPresentFactory" />
+      <module name="Java-Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaAdvancedExam26June2021.Main" />
-        <item itemvalue="Application.Python" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CookingJourney" />
-        <item itemvalue="Application.Bouquets" />
+        <item itemvalue="Application.Project.Main" />
+        <item itemvalue="Application.RallyRacing" />
+        <item itemvalue="Application.EnergyDrinks" />
+        <item itemvalue="Application.SantaPresentFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665519923929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <created>1665998743377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665998743377</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +281,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/Blacksmith.java</url>
-          <line>92</line>
+          <line>87</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -272,19 +310,9 @@
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExamPreparationExercise/Bee.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Exams/TreasureHunt.java</url>
           <line>41</line>
           <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exams/KAT01.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Exam2019/PresentDelivery.java</url>
@@ -306,12 +334,68 @@
           <line>69</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedExam28June2020/Bombs.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Exams/KAT01.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExercisesDefiningClasses/RAWDATA.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam13April2022/testColor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedRetakeExam16December2020/Cooking.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Project/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaAdvancedExam20February2021/Bomb.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegularExam/EnergyDrinks.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegularExam/EnergyDrinks.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegularExam/RallyRacing.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegularExam/Animal.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="engines" />
         <watch expression="engines" />
+        <watch expression="tournament" />
       </configuration>
     </watches-manager>
   </component>

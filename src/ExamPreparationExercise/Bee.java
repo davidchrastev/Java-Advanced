@@ -31,7 +31,7 @@ public class Bee {
             switch (command) {
                 case "up":
                     beeRow--;
-                    if (beeRow >= 0) {
+                    if (!isBeeOut(beeRow,beeCol,parameter)) {
                         if (matrix[beeRow][beeCol] == 'f') {
                             pollinatedFlowers++;
                         } else if (matrix[beeRow][beeCol] == 'O') {
@@ -48,7 +48,7 @@ public class Bee {
                     break;
                 case "down":
                     beeRow++;
-                    if (beeRow < parameter) {
+                    if (!isBeeOut(beeRow,beeCol,parameter)) {
                         if (matrix[beeRow][beeCol] == 'f') {
                             pollinatedFlowers++;
                         } else if (matrix[beeRow][beeCol] == 'O') {
@@ -65,7 +65,7 @@ public class Bee {
                     break;
                 case "left":
                     beeCol--;
-                    if (beeCol >= 0) {
+                    if (!isBeeOut(beeRow,beeCol,parameter)) {
                         if (matrix[beeRow][beeCol] == 'f') {
                             pollinatedFlowers++;
                         } else if (matrix[beeRow][beeCol] == 'O') {
@@ -82,7 +82,7 @@ public class Bee {
                     break;
                 case "right":
                     beeCol++;
-                    if (beeCol < parameter) {
+                    if (!isBeeOut(beeRow,beeCol,parameter)) {
                         if (matrix[beeRow][beeCol] == 'f') {
                             pollinatedFlowers++;
                         } else if (matrix[beeRow][beeCol] == 'O') {

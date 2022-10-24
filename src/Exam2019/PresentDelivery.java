@@ -50,22 +50,40 @@ public class PresentDelivery {
 
             if (matrix[santaRow][santaCol] == 'C') {
                 if (santaRow - 1 >= 0) {
+                    if (matrix[santaRow - 1][santaCol] == 'V') {
+                        goodKids++;
+                    }
                     matrix[santaRow - 1][santaCol] = '-';
                     countOfPresents--;
                 }
                 if (santaRow + 1 <= parameter) {
+                    if (matrix[santaRow + 1][santaCol] == 'V') {
+                        goodKids++;
+                    }
                     matrix[santaRow - 1][santaCol] = '-';
                     countOfPresents--;
                 }
                 if (santaCol- 1 >= 0) {
+                    if (matrix[santaRow][santaCol - 1] == 'V') {
+                        goodKids++;
+                    }
                     matrix[santaRow][santaCol - 1] = '-';
                     countOfPresents--;
                 }
                 if (santaCol + 1 <= parameter) {
+                    if (matrix[santaRow][santaCol + 1] == 'V') {
+                        goodKids++;
+                    }
                     matrix[santaRow][santaCol + 1] = '-';
                     countOfPresents--;
                 }
+                if (countOfPresents == 0 && countGoodKids == goodKids) {
+                    printMatrix(matrix);
+                    System.out.printf("Good job, Santa! %d happy nice kid/s.%n",countGoodKids);
+                    return;
+                }
             }
+
             matrix[santaRow][santaCol] = 'S';
             if (countOfPresents == 0) {
                 System.out.println("Santa ran out of presents!");

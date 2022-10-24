@@ -6,11 +6,6 @@ public class Blacksmith {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-//        Gladius	70
-//        Shamshir	80
-//        Katana	90
-//        Sabre	110
-
         Map<String,Integer> swords = new TreeMap<>();
         swords.put("Gladius", 0);
         swords.put("Shamshir", 0);

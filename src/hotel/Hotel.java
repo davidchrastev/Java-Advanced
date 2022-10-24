@@ -11,8 +11,6 @@ public class Hotel {
     public String getName() {
         return name;
     }
-
-
     public Hotel(String name,int capacity) {
         this.capacity = capacity;
         this.name = name;
@@ -50,6 +48,4 @@ public class Hotel {
         }
         return builder.toString();
     }
-
-
 }
