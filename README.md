@@ -1,12 +1,13 @@
 # 🌱 Java-Advanced 🌱
 
-Here i am learning 
-Queues and Stack,
-Matrix,
-Sets and Maps,
-Streams,Files and Directories,
-Functional programming,
+
+Stacks and Queues,
+Multidimensional Arrays,
+Sets and Maps Advanced,
+Streams, Files and Directories,
+Functional Programming,
 Defining classes,
+Workshop,
 Generics,
-Iterators - Iterable,
-Comparators - Comparable
+Iterators and Comparators.
+
